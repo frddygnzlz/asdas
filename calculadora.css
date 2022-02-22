@@ -30,5 +30,40 @@ body {
     font-size: 40px;
     cursor: pointer;
 }
+
+.calc-buttons:hover {
+    background-color: #ebebeb;
+}
+
+.calc-buttons:active {
+    background-color: #bbbcbb;
+}
+
+.double {
+    width: 49.7%;
+}
+
+.triple {
+    width: 74.8%;
+}
+
+.calc-row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.calc-buttons :last-child {
+    background-color: orange;
+}
+
+.calc-buttons :last-child:hover {
+    background-color: rgb(131, 99, 41);
+}
+
+.calc-buttons :last-child :active {
+    background-color: #dd8d37;
+}
     
     
